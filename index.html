@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Putra"Store</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet"/>
+  <style>
+    .portfolio-section {
+      background: transparent;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .portfolio-section h2 {
+      font-size: 32px;
+    }
+
+    .portfolio-section h2 span {
+      color: #00cfff;
+    }
+
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .portfolio-grid img {
+      width: 100%;
+      border-radius: 15px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <header class="animate-top">
+    <h2>Putra"Store</h2>
+    <nav>
+      <a href="java.html">Host Java</a>
+      <a href="bedrock.html">Host Bedrock</a>
+    </nav>
+  </header>
+
+  <section class="hero animate-left">
+    <div class="left">
+      <h1>Selamat Datang<br><span class="typed-text"></span></h1>
+      <p>100% Amanah Kurang Sesuai bisa reff</p>
+      <div class="social-icons">
+        <i class="fab fa-youtube"></i>
+        <i class="fab fa-whatsapp"></i>
+        <i class="fab fa-tiktok"></i>
+        <i class="fab fa-linkedin"></i>
+      </div>
+      <button>More About Me</button>
+    </div>
+    <div class="right">
+      <img src="putra.jpg" alt="Avatar"/>
+    </div>
+  </section>
+
+  <section class="animate-bottom">
+    <h2 class="section-title">About<span>Me</span></h2>
+    <div class="about-content">
+      <img src="putra.jpg" alt="Avatar"/>
+      <p><strong>Putra"Store</strong><br>devoloper by Putra"Store Ada Hosting Java, Hosting Bedrock, Dominan 100% Amanah</p>
+    </div>
+  </section>
+
+  <section class="animate-bottom">
+    <h2 class="section-title">My <span>services</span></h2>
+    <div class="services">
+      <div class="card"><i class="fas fa-code"></i><h3>UI/UX Design</h3><p>I provide professional UI/UX design services focused on intuitive, aesthetic, and functional user interfaces.</p></div>
+      <div class="card"><i class="fas fa-paint-brush"></i><h3>Graphic Design</h3><p>I provide creative graphic design services that will bring your ideas to life into stunning visual masterpieces.</p></div>
+      <div class="card"><i class="fas fa-desktop"></i><h3>Frontend Dev</h3><p>I offer frontend development services that focus on creating attractive and responsive user interfaces.</p></div>
+    </div>
+  </section>
+  
+  <section class="animate-bottom">
+    <h2 class="section-title">Technical <span>Skills</span></h2>
+    <div class="skills">
+      <div style="flex:1">
+        <div class="skill">
+          <div class="skill-name">
+            <div class="skill-left"><i class="fab fa-html5" style="color:#f16529;"></i> HTML</div>
+            <span>100%</span>
+          </div>
+          <div class="progress-bar"><div class="progress" style="--progress: 100%;"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">
+            <div class="skill-left"><i class="fab fa-css3-alt" style="color:#2965f1;"></i> CSS</div>
+            <span>100%</span>
+          </div>
+          <div class="progress-bar"><div class="progress" style="--progress: 100%;"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">
+            <div class="skill-left"><i class="fab fa-js" style="color:#f0db4f;"></i> Javascript</div>
+            <span>100%</span>
+          </div>
+          <div class="progress-bar"><div class="progress" style="--progress: 100%;"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">
+            <div class="skill-left"><i class="fab fa-python" style="color:#3776ab;"></i> Python</div>
+            <span>50%</span>
+          </div>
+          <div class="progress-bar"><div class="progress" style="--progress: 50%;"></div></div>
+        </div>
+        <div class="skill">
+          <div class="skill-name">
+            <div class="skill-left"><i class="fab fa-react" style="color:#61DBFB;"></i> React</div>
+            <span>60%</span>
+          </div>
+          <div class="progress-bar"><div class="progress" style="--progress: 60%;"></div></div>
+                </div>
+        <div class="skill">
+          <div class="skill-name">
+            <div class="skill-left"><i class="fab fa-php" style="color:#61DBFB;"></i> Php</div>
+            <span>75%</span>
+          </div>
+          <div class="progress-bar"><div class="progress" style="--progress: 75%;"></div></div>
+        </div>
+      </div>
+      <div style="flex:1; display: flex; flex-wrap: wrap; justify-content: space-around; align-items: center;">
+        <div class="circular">90%<br><small></small></div>
+        <div class="circular">80%<br><small></small></div>
+        <div class="circular">75%<br><small></small></div>
+        <div class="circular">85%<br><small></small></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="animate-bottom">
+  <!-- Tambahan dari Portfolio -->
+  <section class="portfolio-section">
+    <h2>Latest <span>Project</span></h2>
+    <div class="portfolio-grid">
+      <img src="1.jpg?text=Project+1" alt="Project 1">
+      <img src="2.jpg?text=Project+2" alt="Project 2">
+      <img src="3.jpg?text=Project+3" alt="Project 3">
+      <img src="4.jpg?text=Project+4" alt="Project 4">
+    </div>
+  </section>
+
+  <script>
+    const words = ["☄️Putra''Store☄️ ", "🛍️Hosting Java🛍️", "🛍️Hosting Bedrock🛍️", "👑Developer Putra👑"];
+    let i = 0;
+    let j = 0;
+    let currentWord = '';
+    let isDeleting = false;
+
+    function type() {
+      const typedText = document.querySelector('.typed-text');
+      currentWord = words[i];
+
+      if (isDeleting) {
+        typedText.textContent = currentWord.substring(0, j--);
+      } else {
+        typedText.textContent = currentWord.substring(0, j++);
+      }
+
+      if (!isDeleting && j === currentWord.length + 1) {
+        isDeleting = true;
+        setTimeout(type, 1000);
+        return;
+      }
+
+      if (isDeleting && j === 0) {
+        isDeleting = false;
+        i = (i + 1) % words.length;
+      }
+
+      const speed = isDeleting ? 50 : 120;
+      setTimeout(type, speed);
+    }
+
+    document.addEventListener("DOMContentLoaded", type);
+  </script>
+
+  <footer>
+    &copy; 2025 PutraStore Hosting - All rights reserved
+  </footer>
+</body>
+</html>
